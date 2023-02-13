@@ -13,7 +13,7 @@
 
   <link href="./css/styles.css" rel="stylesheet">
 </head>
-<body>
+<body class="font-open">
   <!--Header Section-->
   <header class="bg-black py-6 lg:py-12 text-gega-grey">
     <!--Header Container-->
@@ -61,7 +61,7 @@
   </header>
 
   <!--Hero Section-->
-  <section class="h-64 md:H-96 lg:h-128 group relative">
+  <section class="h-96 lg:h-128 group relative">
     <!--Hero Image-->
     <img src="./img/batman.jpg" alt="Main image" class="h-full w-full object-cover">
     <!--Hero Content Bacground-->
@@ -106,11 +106,11 @@
   <!--Movies Section-->
   <section class="py-24 bg-black">
     <!--Movies Content-->
-    <div class="container flex space-x-16">
+    <div class="container flex flex-col lg:flex-row lg:space-x-16 space-y-8 lg:space-y-0">
       <!--Left Content-->
       <div class="basis-2/3">
         <!--Titles-->
-        <div class="flex space-x-2 divide-x divide-gega-melon divide-opacity-50 mb-8">
+        <div class="flex space-x-2 divide-x divide-gega-melon divide-opacity-50 mb-8 pl-10 lg:pl-0">
           <h2 class="text-gega-red"><a href="#">latest</a></h2>
           <h2 class="text-gega-grey pl-2 hover:text-gega-red duration-500"><a href="#">popular</a></h2>
           <h2 class="text-gega-grey pl-2 hover:text-gega-red duration-500"><a href="#">best</a></h2>
@@ -118,7 +118,7 @@
         <!--Images Container-->
         <div class="flex flex-wrap">
           <!--Image I-->
-          <div class="group relative overflow-hidden basis-1/3">
+          <div class="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
             <img src="./img/mv1.jpg" alt="" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
             <!---image details-->
             <div class="absolute px-6 bottom-8">
@@ -132,7 +132,7 @@
             </div>
           </div>
           <!--Image II-->
-          <div class="group relative overflow-hidden basis-1/3">
+          <div class="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
             <img src="./img/mv2.jpg" alt="" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
             <!---image details-->
             <div class="absolute px-6 bottom-8">
@@ -146,7 +146,7 @@
             </div>
           </div>
           <!--Image III-->
-          <div class="group relative overflow-hidden basis-1/3">
+          <div class="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
             <img src="./img/mv3.jpg" alt="" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
             <!---image details-->
             <div class="absolute px-6 bottom-8">
@@ -160,7 +160,7 @@
             </div>
           </div>
           <!--Image VI-->
-          <div class="group relative overflow-hidden basis-1/3">
+          <div class="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
             <img src="./img/mv4.jpg" alt="" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
             <!---image details-->
             <div class="absolute px-6 bottom-8">
@@ -174,7 +174,7 @@
             </div>
           </div>
           <!--Image V-->
-          <div class="group relative overflow-hidden basis-1/3">
+          <div class="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
             <img src="./img/mv5.jpg" alt="" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
             <!---image details-->
             <div class="absolute px-6 bottom-8">
@@ -188,8 +188,36 @@
             </div>
           </div>
           <!--Image VI-->
-          <div class="group relative overflow-hidden basis-1/3">
+          <div class="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
             <img src="./img/mv6.jpg" alt="" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
+            <!---image details-->
+            <div class="absolute px-6 bottom-8">
+              <h3 class="text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500" >oblivion</h3>
+              <p class="text-xs opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, error!</p>
+              <!--icon container-->
+              <div class="absolute flex space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
+                <a class="hover:text-gega-red"href="#"><i class="fa-solid fa-play"></i></a>
+                <a class="hover:text-gega-red"href="#"><i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+            <!--Image VII-->
+          <div class="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3 hidden md:block lg:hidden">
+            <img src="./img/mv1.jpg" alt="" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
+            <!---image details-->
+            <div class="absolute px-6 bottom-8">
+              <h3 class="text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500" >oblivion</h3>
+              <p class="text-xs opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, error!</p>
+              <!--icon container-->
+              <div class="absolute flex space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
+                <a class="hover:text-gega-red"href="#"><i class="fa-solid fa-play"></i></a>
+                <a class="hover:text-gega-red"href="#"><i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <!--Image VIII-->
+          <div class="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3 hidden md:block lg:hidden">
+            <img src="./img/mv2.jpg" alt="" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
             <!---image details-->
             <div class="absolute px-6 bottom-8">
               <h3 class="text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500" >oblivion</h3>
@@ -204,13 +232,13 @@
         </div>
       </div>
       <!--Right Content-->
-      <div class="basis-1/3">
+      <div class="basis-1/3 pl-10 lg:pl-0">
        <!--Title-->
        <h2 class="text-gega-grey mb-8">hot news</h2>
        <!--News Container-->
-        <div class="flex flex-col h-full pb-16 justify-between">
+        <div class="flex flex-row lg:flex-col lg:h-full lg:pb-16 justify-start lg:justify-between flex-wrap lg:flex-nowrap space-y-4">
           <!--Item I-->
-          <div class="flex items-center group">
+          <div class="flex items-center group basis-3/4 md:basis-1/2">
             <!--News Image Container-->
             <div class="basis-1/3 h-full">
               <img src="./img/new1.jpg" alt="" class="h-full w-full object-cover">
@@ -222,7 +250,7 @@
             </div>
           </div>
           <!--Item II-->
-          <div class="flex items-center group">
+          <div class="flex items-center group basis-3/4 md:basis-1/2">
             <!--News Image Container-->
             <div class="basis-1/3 h-full">
               <img src="./img/new2.jpg" alt="" class="h-full w-full object-cover">
@@ -234,7 +262,7 @@
             </div>
           </div>
           <!--Item III-->
-          <div class="flex items-center group">
+          <div class="flex items-center group basis-3/4 md:basis-1/2">
             <!--News Image Container-->
             <div class="basis-1/3 h-full">
               <img src="./img/new3.jpg" alt="" class="h-full w-full object-cover">
@@ -246,7 +274,7 @@
             </div>
           </div>
           <!--Item IV-->
-          <div class="flex items-center group">
+          <div class="flex items-center group basis-3/4 md:basis-1/2">
             <!--News Image Container-->
             <div class="basis-1/3 h-full">
               <img src="./img/new4.jpg" alt="" class="h-full w-full object-cover">
@@ -258,7 +286,7 @@
             </div>
           </div>
           <!--Item V-->
-          <div class="flex items-center group">
+          <div class="flex items-center group basis-3/4 md:basis-1/2  md:hidden lg:flex">
             <!--News Image Container-->
             <div class="basis-1/3 h-full">
               <img src="./img/new5.jpg" alt="" class="h-full w-full object-cover">
